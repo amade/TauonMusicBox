@@ -661,7 +661,7 @@ try:
     import pylast
     last_fm_enable = True
 except:
-    print("PyLast moduel not found, last fm will be disabled.")
+    print("PyLast module not found, last fm will be disabled.")
 
 try:
     import unidecode
