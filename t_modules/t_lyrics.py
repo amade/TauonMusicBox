@@ -18,7 +18,7 @@
 #     along with Tauon Music Box.  If not, see <http://www.gnu.org/licenses/>.
 
 
-from isounidecode import unidecode
+import unidecode
 from PyLyrics import PyLyrics
 from bs4 import BeautifulSoup  # Remember to add to dependency list if PyLyrics is removed
 import urllib.parse

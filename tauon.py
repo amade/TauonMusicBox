@@ -662,6 +662,11 @@ try:
     last_fm_enable = True
 except:
     print("PyLast moduel not found, last fm will be disabled.")
+
+try:
+    import unidecode
+except:
+    from isounidecode import unidecode
 import time
 import ctypes
 import random
@@ -696,7 +701,6 @@ from pathlib import Path
 from xml.sax.saxutils import escape, unescape
 from ctypes import *
 from send2trash import send2trash
-from isounidecode import unidecode
 from collections import OrderedDict
 
 musicbrainzngs.set_useragent("TauonMusicBox", n_version, "https://github.com/Taiko2k/TauonMusicBox")
