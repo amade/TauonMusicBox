@@ -15560,7 +15560,7 @@ def gen_unique_pl_title(base, extra="", start=1):
 
 def new_playlist(switch=True):
 
-    title = gen_unique_pl_title("New Playlist")
+    title = gen_unique_pl_title(_("New Playlist"))
 
     top_panel.prime_side = 1
     top_panel.prime_tab = len(pctl.multi_playlist)
