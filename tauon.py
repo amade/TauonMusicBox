@@ -3259,7 +3259,7 @@ if db_version > 0:
                 setattr(master_library[key], 'misc', {})
 
     if db_version <= 34:
-        print("Update to dv 35")
+        print("Update to db 35")
         # Moved to after config load
 
     if db_version <= 35:
