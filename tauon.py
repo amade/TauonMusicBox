@@ -3407,7 +3407,7 @@ if db_version > 0:
         print("Updating database to version 50")
         if os.path.isfile(os.path.join(user_directory, "spot-r-token")):
             show_message("Welcome to v6.3.0. Due to an upgrade, please re-authorise Spotify",
-                         "You can do this by clicking 'Authroise' in Settings > Accounts > Spotify")
+                         "You can do this by clicking 'Authorise' in Settings > Accounts > Spotify")
             os.remove(os.path.join(user_directory, "spot-r-token"))
 
     if db_version <= 54:
